@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Resume</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <img id="profile_icon" src="images/profile.jpg" width="300px" height="300px" alt="My Picture">
+        <h1>
+            &nbsp; Sahasadecha Jaemjumrus
+        </h1>
+        <p id="personalInformation">
+            <img id="personal_icon" src="images/personalInformation.png" width="50px" height="50px" alt="Personal Information"> &nbsp; ประวัติ
+        </p>
+        <table id="table_personal">
+            <tr>
+                <th id="H-name">ชื่อ - สกุล: </th>
+                <td id="D-name">สหสเดชะ แจ่มจำรัส</td>
+                <th id="H-date">วันเกิด: </th>
+                <td id="D-date">18/03/2543</td>
+            </tr>
+            <tr>
+                <th id="H-age">อายุ: </th>
+                <td id="D-age">20 ปี</td>
+                <th id="H-status">สถานภาพ: </th>
+                <td id="D-status">โสด</td>
+            </tr>
+            <tr>
+                <th id="H-sex">เพศ: </th>
+                <td id="D-sex">ชาย</td>
+                <th id="H-nationality">สัญชาติ: </th>
+                <td id="D-nationality">ไทย</td>
+            </tr>
+        </table>
+        <p id="education">
+            <img id="education_icon" src="images/education.png" width="50px" height="50px" alt="Education"> &nbsp; การศึกษา
+        </p>
+        <ul id="ul_education">
+            <li id="skr"><a href="http://www.sakolraj.ac.th/">โรงเรียนสกลราชวิทยานุกูล</a></li>
+            <br>
+            <li id="kku"><a href="https://www.kku.ac.th/">มหาวิทยาลัยขอนแก่น</a></li>    
+        </ul>
+        </table>
+        <p id="skills">
+            <img id="skills_icon" src="images/skills.png" width="50px" height="50px" alt="Skills"> &nbsp; ทักษะ
+        </p>
+        <ul id="ul_skills">
+            <li id="python"><img src="images/python.png" width="30px" height="30px" alt="python">&nbsp;&nbsp; Python</li>
+            <br>
+            <li id="java"><img src="images/java.png" width="30px" height="30px" alt="java">&nbsp;&nbsp; Java</li>
+            <br>
+            <li id="HTML"><img src="images/html.png" width="30px" height="30px" alt="html">&nbsp;&nbsp; HTML</li>
+        </ul>
+        <p id="hobbies">
+            <img id="hobbies_icon" src="images/hobbies.png" width="50px" height="50px" alt="hobbies">&nbsp; งานอดิเรก
+        </p>
+        <ul id="ul_hobbies">
+            <li><img src="images/read.png" width="30px" height="30px" alt="read"> อ่านหนังสือ</li>
+            <br>
+            <li><img src="images/exercise.png" width="30px" height="30px" alt="exercise"> ออกกำลังกาย</li>
+            <br>
+            <li><img src="images/game.png" width="30px" height="30px" alt="game"> เล่นเกม</li>
+            <br>
+            <li><img src="images/cinema.png" width="30px" height="30px" alt="cinema"> ดูหนัง</li>
+            <br>
+            <li><img src="images/educate.png" width="30px" height="30px" alt="educate"> ศึกษาเพิ่มเติม</li>
+        </ul>
+        <p id="contect">
+            <img id="contect_icon" src="images/contect.png" width="50px" height="50px" alt="contect">&nbsp; Contect
+        </p>
+        <ul id="ul_contect">
+            <li id="facebook_contect"><a href="https://www.facebook.com/Naay00"><img src="images/facebook.webp" width="50px" height="50px" alt="facebook"></a></li>
+            <li id="ig_contect"><a href="https://www.instagram.com/naay__n/?hl=th"><img src="images/instagram.png" width="50px" height="50px" alt="instagram"></a></li>
+        </ul>
+        <form action="/personal-information-form" method="POST">
+            <div>
+                <label for="fName">First Name</label><br>
+                <input type="text" name="fName" id="first_name"><br>
+                <label for="lName">Last Name</label><br>
+                <input type="text" name="lName" id="last_name"><br>
+                <label for="number">Number</label><br>
+                <input type="text" number="number" id="number"><br>
+            </div>
+            <div class="button">
+                <input type="submit" value="Submit"><br><br>
+            </div>
+            <div>
+                <button onclick="toPDF()">To PDF</button>
+            </div>
+            <script src="scripts/script.js"></script>
+    </body>
+</html>

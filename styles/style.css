@@ -1,0 +1,120 @@
+body {
+    box-sizing: border-box;
+    padding: 0px 50px;
+}
+
+#profile_icon {
+    padding: 0%;
+    border-radius: 50%;
+    float: left;
+}
+
+h1 {
+    padding: 15px 0px 0px;
+    margin-left: auto;
+    font-family: 'Signika', sans-serif;
+    font-size: 60px;
+    
+}
+
+#personal_icon {
+    float: left;
+    display: block;
+    margin-left: 25px;
+}
+
+#personalInformation, #education , #skills, #hobbies, #contect {
+    margin-bottom: 10px;
+    background-color: lightcyan;
+    padding: 0px 0px 0px 30px; 
+    font-size: 40px;
+    border-bottom: 3px solid lightgray;
+}
+
+#table_personal {
+    font-size: 25px;
+    text-align: left;
+    padding: 20px;
+    margin-left: 25px;
+}
+
+th {
+    width: 200px;
+}
+
+td {
+    width: 400px;
+}
+
+#education_icon, #skills_icon, #hobbies_icon, #contect_icon {
+    float: left;
+    display: block;
+}
+
+#ul_education{
+    font-size: 25px;
+    padding: 0px 0px 20px;
+    margin-left: 100px;
+}
+
+#ul_skills, #ul_hobbies {
+    list-style-type: none;
+    font-size: 25px;
+    padding: 0px 0px 20px;
+    margin-left: 60px;
+}
+
+#ul_contect {
+    list-style-type: none;
+}
+
+#facebook_contect {
+    float: left;
+}
+
+#facebook_contect, #ig_contect {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit], button {
+    text-align: center;
+    width: 20%;
+    height: 50px;
+    background-color: #00cc00;
+    border: none;
+    color: white;
+}
+
+input[type=submit]:hover {
+    background-color: #008800;
+}
+
+button:hover {
+    background-color: #008800;
+}
